@@ -1,0 +1,66 @@
+body {
+  background: lightskyblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(42, 44, 46);
+  box-sizing: border-box;
+  max-height: 100%;
+ }
+
+.rps_imageP, .rps_imageC {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.hidden {
+  display: none;
+} 
+
+.winner {
+  color:darkblue;
+  justify-self: right;
+}
+
+.btn {
+  vertical-align: middle
+  transform: translateX(-50%);
+  color: #444;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 80;
+  transition: all 0.2s;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 0.7rem 2.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+section{
+  vh: 100;
+  position: relative;
+  border-radius: 9px; 
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+}
+.player{
+  flex-grow: 1;
+  flex-wrap: unset;
+}
+.choose{
+  flex-grow: 2;
+}
+
+.score {
+  font-size: 2em;
+  font-weight: 800;
+  color: darkblue;
+  margin-bottom: auto;
+} 
+
+
